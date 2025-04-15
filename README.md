@@ -1,16 +1,15 @@
 # ViT-Classification-CIFAR10
 
-This repository contains an implementation of the **Vision Transformer (ViT)** from scratch using PyTorch. The model is applied to the CIFAR-10 dataset for image classification. Vision Transformers divide an image into smaller patches and process them with transformer layers to extract features, leading to state-of-the-art performance on various vision tasks.
+This repository presents a **Vision Transformer (ViT)** implementation from scratch using PyTorch, designed for image classification on the CIFAR-10 dataset. This project was developed as part of the **Honor Deep Learning IA2** coursework during **Semester 6** of the B.Tech program, in collaboration with group members **Atharva Yewale**, **Joyeeta Basu**, and **Aman Jha**. The Vision Transformer divides images into patches and processes them through transformer layers, achieving competitive performance on vision tasks.  
 ![Attention Map Example 0](attention_map_gif/cifar-index-21.gif)
 
 ## Features
 
-- Implementation of Vision Transformer from scratch.
-- Trains and evaluates on CIFAR-10 dataset.
-- Supports adjustable hyperparameters like patch size, learning rate, and more.
-- Includes learning rate warmup and weight initialization strategies.
-- Can run on CPU, CUDA, or MPS (for Apple Silicon).
-- Attention map visualization with GIFs.
+- **From Scratch Implementation**: Built ViT architecture including embeddings, transformer layers, and classification heads.
+- **CIFAR-10 Training & Evaluation**: Customizable training pipeline with hyperparameter tuning.
+- **Flexible Configuration**: Adjustable patch size, learning rate, warmup epochs, and device support (CPU/CUDA/MPS).
+- **Visualization Tools**: Generates attention maps as GIFs to interpret model behavior.
+- **Reproducibility**: Includes pre-trained models and detailed training logs.
 
 ## Table of Contents
 
@@ -31,13 +30,11 @@ This repository contains an implementation of the **Vision Transformer (ViT)** f
 
 ## Installation
 
-To get started, clone this repository and install the required dependencies:
-
+Clone the repository and install dependencies using:
 ```bash
 git clone https://github.com/nick8592/ViT-Classification-CIFAR10.git
 cd ViT-Classification-CIFAR10
 pip install -r requirements.txt
-```
 
 ## Usage
 
