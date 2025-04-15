@@ -1,36 +1,39 @@
-# ViT-Classification-CIFAR10
+# ViT-Classification-CIFAR10  
+**Vision Transformer Implementation for CIFAR-10 Classification**  
 
-This repository presents a **Vision Transformer (ViT)** implementation from scratch using PyTorch, designed for image classification on the CIFAR-10 dataset. This project was developed as part of the **Honor Deep Learning IA2** coursework during **Semester 6** of the B.Tech program, in collaboration with group members **Atharva Yewale**, **Joyeeta Basu**, and **Aman Jha**. The Vision Transformer divides images into patches and processes them through transformer layers, achieving competitive performance on vision tasks.  
-![Attention Map Example 0](attention_map_gif/cifar-index-21.gif)
+![Attention Map Example](attention_map_gif/cifar-index-21.gif)  
 
-## Features
+---
 
-- **From Scratch Implementation**: Built ViT architecture including embeddings, transformer layers, and classification heads.
-- **CIFAR-10 Training & Evaluation**: Customizable training pipeline with hyperparameter tuning.
-- **Flexible Configuration**: Adjustable patch size, learning rate, warmup epochs, and device support (CPU/CUDA/MPS).
-- **Visualization Tools**: Generates attention maps as GIFs to interpret model behavior.
-- **Reproducibility**: Includes pre-trained models and detailed training logs.
+## 📜 Project Overview  
+This project was developed as part of the **Honor Deep Learning (IA2)** course during **Semester 6** of the B.Tech program at **[Your College/University Name]**.  
+**Collaborators**:  
+- **Atharva Yewale**  
+- **Joyeeta Basu**  
+- **Aman Jha**  
 
-## Table of Contents
+---
 
-- [ViT-Classification-CIFAR10](#vit-classification-cifar10)
-  - [Features](#features)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Arguments](#arguments)
-  - [Model Architecture](#model-architecture)
-  - [Results](#results)
-  - [Attention Map Visualization](#attention-map-visualization)
-    - [Example 1](#example-1)
-    - [Example 2](#example-2)
-  - [Further Reading](#further-reading)
-  - [References](#references)
-  - [License](#license)
+## 🚀 Features  
+- **Scratch Implementation** of Vision Transformer (ViT) using PyTorch.  
+- Training/evaluation on **CIFAR-10 dataset** (78-82% test accuracy).  
+- Customizable hyperparameters (patch size, learning rate, warmup epochs).  
+- Attention map visualization via animated GIFs.  
+- Pre-trained models hosted on Hugging Face Hub.  
 
-## Installation
+---
 
-Clone the repository and install dependencies using:
+## 📋 Table of Contents  
+1. [Installation](#-installation)  
+2. [Usage](#-usage)  
+3. [Model Architecture](#-model-architecture)  
+4. [Results](#-results)  
+5. [Visualization](#-attention-map-visualization)  
+6. [References](#-references)  
+
+---
+
+## 📥 Installation  
 ```bash
 git clone https://github.com/nick8592/ViT-Classification-CIFAR10.git
 cd ViT-Classification-CIFAR10
