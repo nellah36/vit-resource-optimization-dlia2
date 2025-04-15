@@ -6,7 +6,7 @@
 ---
 
 ## 📜 Project Overview  
-This project was developed as part of the **Honor Deep Learning (IA2)** course during **Semester 6** of the B.Tech program at **KJ SOMAIYA OLLEGE OF ENGINEERING**.  
+This project was developed as part of the **Honor Deep Learning (IA2)** course during **Semester 6** of the B.Tech program at **KJ SOMAIYA COLLEGE OF ENGINEERING**.  
 **Collaborators**:  
 - **Atharva Yewale**  
 - **Joyeeta Basu**  
