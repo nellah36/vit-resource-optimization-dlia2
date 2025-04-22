@@ -129,10 +129,10 @@ Checkpoint files for both models are stored under `model/` for quick loading and
 Understanding where the ViT focuses can offer valuable interpretability. This repository provides animated GIFs that visualize the self-attention weights across different heads and layers.  
 
 - **Example GIF 1**  
-  ![Attention Map Example 1](attention_map_gif/cifar-index-10.gif)  
+  ![Attention Map Example 1](cifar-index-10.gif)  
 
 - **Example GIF 2**  
-  ![Attention Map Example 2](attention_map_gif/cifar-index-13.gif)  
+  ![Attention Map Example 2](cifar-index-13.gif)  
 
 To generate your own attention visualizations, run the `visualize_attention_map.ipynb` notebook.  
 
